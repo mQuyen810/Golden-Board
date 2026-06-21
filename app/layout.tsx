@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 import AppProvider from "@/providers/app-provider";
-
-// import "@/styles/globals.scss";
+import AppLayout from "@/components/layout/app-layout";
+import "@/app/globals.css"
 
 export const metadata: Metadata = {
-  title: "Bảng Vàng JIRA",
+  title: "Bảng Vàng",
   description: "Dashboard Bảng Vàng",
 };
 
@@ -17,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <body>
-        <AppProvider>{children}</AppProvider>
+        <AppProvider>
+          <AppLayout>{children}</AppLayout>
+        </AppProvider>
       </body>
     </html>
   );

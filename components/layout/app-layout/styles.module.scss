@@ -1,0 +1,20 @@
+.layout {
+    :global(.ant-layout) {
+        min-height: 100vh;
+        width: 100%;
+        background-color: var(--bg-page);
+        :global(.ant-layout-header) {
+            padding: 0 32px;
+            background-color: var(--bg-card);
+            box-shadow: 0 2px 8px #f0f1f2;
+        }
+    }
+}
+
+.sider {
+
+}
+
+.content {
+    padding: 20px;
+}

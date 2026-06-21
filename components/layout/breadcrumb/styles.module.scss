@@ -1,0 +1,20 @@
+.breadcrumb{ 
+  :global(.ant-breadcrumb-link) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+
+  :global(.ant-breadcrumb-separator) {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+.homeLink{
+ display: inline-flex;
+  align-items: center;
+}

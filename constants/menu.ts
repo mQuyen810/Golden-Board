@@ -8,22 +8,41 @@ import {
 export const MENU_ITEMS = [
   {
     key: "/dashboard",
-    icon: <DashboardOutlined />,
+    icon: DashboardOutlined,
     label: "Tổng quan",
   },
   {
     key: "/ranking",
-    icon: <TrophyOutlined />,
+    icon: TrophyOutlined,
     label: "Bảng xếp hạng",
+    children: [
+      {
+        key: "/ranking/task",
+        icon: BarChartOutlined,
+        label: "BXH slsx/ulnl",
+      },
+      {
+        key: "/ranking/bug",
+        icon: BarChartOutlined,
+        label: "BXH bug",
+      },
+    ],
   },
   {
-    key: "/employee",
-    icon: <TeamOutlined />,
-    label: "Nhân sự",
-  },
-  {
-    key: "/report",
-    icon: <BarChartOutlined />,
-    label: "Báo cáo",
+    key: "/personal",
+    icon: TeamOutlined,
+    label: "Cá nhân",
+    children: [
+      {
+        key: "/personal/task",
+        icon: BarChartOutlined,
+        label: "Thống kê task",
+      },
+      {
+        key: "/personal/bug",
+        icon: BarChartOutlined,
+        label: "Thống kê bug",
+      },
+    ],
   },
 ];

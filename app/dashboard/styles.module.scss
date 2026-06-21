@@ -1,0 +1,20 @@
+.dashboardContainer {
+    margin: 10px 0;
+    .dashboardContent {
+        max-width: 530px;
+        width: 100%;
+        margin-bottom: 20px;
+        h1{
+            font-size: 36px;
+            font-weight: bold;
+            span{
+                color: #E61B35;
+            }
+        }
+        p{
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            color: #64748b;
+        }
+    }
+}
