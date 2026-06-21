@@ -1,0 +1,146 @@
+.card {
+  border-radius: 18px !important;
+  height: 100%;
+  box-shadow: none !important;
+
+  :global(.ant-card-body) {
+    padding: 22px;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.iconWrapper {
+  width: 42px;
+  height: 42px;
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.title {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.value {
+  margin-top: 24px;
+  font-size: 44px;
+  line-height: 1;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.suffix {
+  margin-left: 4px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  color: #64748b;
+
+  vertical-align: top;
+}
+
+.divider {
+  margin: 20px 0;
+  border-top: 1px dashed #e2e8f0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #94a3b8;
+  font-size: 12px;
+
+  strong {
+    font-family: "JetBrains Mono", monospace;
+    margin: 0 4px;
+    color: #1e293b;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  padding: 8px 12px;
+
+  border-radius: 999px;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* SUCCESS */
+
+.success {
+  background: #f8fffc;
+}
+
+.successIcon {
+  background: #e9fbf4;
+  color: #10b981;
+}
+
+.successBadge {
+  background: #ecfdf5;
+  color: #10b981;
+}
+
+/* DANGER */
+
+.danger {
+  background: #fff9f9;
+}
+
+.dangerIcon {
+  background: #ffecec;
+  color: #ef4444;
+}
+
+.dangerBadge {
+  background: #fff1f2;
+  color: #ef4444;
+}
+
+/* PURPLE */
+
+.purple {
+  background: #fcfbff;
+}
+
+.purpleIcon {
+  background: #f3eeff;
+  color: #8b5cf6;
+}
+
+.purpleBadge {
+  background: #f5f3ff;
+  color: #8b5cf6;
+}
